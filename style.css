@@ -11,23 +11,6 @@
     color: white;
 }
 
-
-
-
-.ri {
-    font-family: "Remix Icon";
-    font-style: normal;
-    font-weight: normal;
-    speak: none;
-    display: inline-block;
-    text-decoration: inherit;
-    text-align: center;
-    text-transform: none;
-    line-height: 1;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-}
-
 header{
     
     position: fixed; /*hace que el header se quede fijo*/
