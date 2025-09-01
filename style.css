@@ -11,8 +11,21 @@
     color: white;
 }
 
-body{
-    background-color: black;
+
+
+
+.ri {
+    font-family: "Remix Icon";
+    font-style: normal;
+    font-weight: normal;
+    speak: none;
+    display: inline-block;
+    text-decoration: inherit;
+    text-align: center;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 header{
@@ -27,6 +40,7 @@ header{
     justify-content: space-between;
     padding: 25px 50px;
     background-color: transparent;
+    border: 2px solid rgb(255, 255, 255);
 }
 
 .logo{
@@ -38,21 +52,83 @@ header{
     display: flex; /*hace que los elementos de lista se coloquen uno al lado del otro*/
     margin: 0px;
     padding: 20px;
-    background-color: rgb(65, 54, 54);
-
-
+    /* background-color: white;*/
 }
 .navbar li{
+    color: white; /*despues cambiar a negro*/
     font-size: 15px;
     font-weight: 700;
     padding: 15px;
     margin-left: 50px;
-    border: 3px;
-    /* background-color: rgb(5, 51, 119); */
     border-radius: 5%;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: all 0.5s ease;
 }
 
 .navbar li:hover{
-    transition: 0.5s;
+    transition: all 0.5s;
     background-color: #0066ffff;
+    text-shadow: left 10px;
+    color: black; /*despues cambiar a blanco*/
+    transform: translateY(-8px);
+}
+
+.hero{
+    width: 100%;
+    height: 100%;
+    min-height: 100vh;
+    background: linear-gradient(245.59deg, #2c2f33 0%, #3a4a68 50%, #0d1b2a 100%); /*fondo de color radiente*/
+    position: relative; /*basicamente para que yo le pueda dar las medidas q quiera(top,left,right,bottom)*/
+    display: grid; /*para que los div se dividan en dos columnas*/
+    grid-template-columns: 1fr 1fr; /*para que se alineen de manera vertical*/
+    align-items: center;
+    gap:2rem /*para que entre las dos columnas haya espacio de 2rem*/
+}
+
+section{
+    padding: 0 8%;
+}
+.hero-text h3{
+    font-size: 25px;
+    margin-top: 25px;
+    margin-bottom: 30px;
+    letter-spacing: 2px;
+}
+
+.hero-text h4{
+    font-size: 20px;
+    margin-bottom: 30px;
+    letter-spacing: 2px;
+}
+
+
+.hero-text h5{
+    font-size: 15px;
+    margin-bottom: 50px;
+    letter-spacing: 2px;
+}
+
+
+.hero-text p{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: justify;
+    text-indent: 5px;
+    text-transform: capitalize ;
+    font-size: 25px;
+    margin-bottom: 100px;
+    line-height: 45px;
+    letter-spacing: 2px;
+}
+
+.image-hero img{ 
+    width: 500px;
+    margin: 10% 0 0 10%;
+    height: auto;
+    transition: all 2s linear;
+}
+
+.image-hero img:hover{
+    width: 550px;
+    opacity: 0.6;
 }
