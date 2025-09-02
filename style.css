@@ -22,7 +22,7 @@ header{
     align-items: center;
     justify-content: space-between;
     padding: 25px 50px;
-    background-color: transparent;
+    background-color:rgb(46, 43, 97);
     border: 2px solid rgb(255, 255, 255);
 }
 
@@ -121,6 +121,7 @@ section{
 
 }
 .contacto{
+    background-color: solid white;
     display: flex;
     margin: 0;
     padding: 20px;
@@ -139,6 +140,40 @@ section{
 }
 
 .acerca-de{
+    display: grid;
+    margin: 2px;
     color: white;
     background: linear-gradient(245.59deg, #2c2f33 0%, #3a4a68 50%, #0d1b2a 100%);
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 2rem;
+    justify-content: space-between;
 }
+.acerca-de-titulo{
+    margin-top: 15px;
+    text-transform: uppercase;
+    text-decoration: solid;
+}
+.acerca-de-titulo img{
+    width: 450px;
+    margin: 10% 0 0 10%;
+    height: auto;
+    transition: all 2s linear;
+    
+}
+.acerca-de-titulo img:hover{
+    width: 500px;
+    opacity: 0.6;
+}
+
+.explicacion{
+    letter-spacing: 3px;
+    text-align: justify;
+    padding: 10px;
+    line-height: 45px;
+    text-indent: 10px;
+
+}
+
+
+
