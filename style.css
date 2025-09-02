@@ -92,7 +92,6 @@ section{
     letter-spacing: 2px;
 }
 
-
 .hero-text p{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: justify;
@@ -114,4 +113,32 @@ section{
 .image-hero img:hover{
     width: 550px;
     opacity: 0.6;
+}
+
+.seccion-contacto{
+    border: 2px solid white;
+    background: linear-gradient(245.59deg, #2c2f33 0%, #3a4a68 50%, #0d1b2a 100%);
+
+}
+.contacto{
+    display: flex;
+    margin: 0;
+    padding: 20px;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: space-around;
+}
+
+.logo img{  
+    border: 2px solid white;
+    border-radius: 100px;
+    padding: 2px;
+    margin: 10% 0 0 10%;
+    width: 60px;
+    align-items: center;
+    margin:0px 20px 0px 20px;
+}
+
+.acerca-de{
+    color: white;
+    background: linear-gradient(245.59deg, #2c2f33 0%, #3a4a68 50%, #0d1b2a 100%);
 }
