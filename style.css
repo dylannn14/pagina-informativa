@@ -9,6 +9,7 @@
     list-style: none;
     text-decoration: none;
     color: white;
+    scroll-behavior: smooth;
 }
 
 header{
@@ -172,7 +173,6 @@ section{
     padding: 10px;
     line-height: 45px;
     text-indent: 10px;
-
 }
 
 
